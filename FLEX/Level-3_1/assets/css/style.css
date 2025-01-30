@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family: "Raleway", "sans-serif";
+   
+}
+
+.navi ul li, a{
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4c4c4c;
+   
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    
+    height: 70vw;
+   
+ 
+    background-image: url(../img/header_background_image.png);
+    background-size: cover;
+    
+
+}
+
+
+.wrap_header{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+    color: #666666;
+    max-height: max-content;
+    
+ 
+    width: 100%;
+ 
+
+
+}
+
+.wrap_header h2{
+   font-weight: 300;
+
+}
+
+.navi ul{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.wrap_header_text{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+height: 50vw;
+color: rgba(255, 255, 255, 0.956);
+font-size: 26px;
+
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+    
+   
+}
+
+.buttons a{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    font-weight: 200;
+   
+    
+}
+
+.buttons a:nth-of-type(1){
+  background-color: blueviolet;
+border: 1px solid blueviolet;
+  color: white;
+}
+
+.buttons a:nth-of-type(2){
+
+  
+  
+    border: 1px solid white;
+    color: white;
+}
