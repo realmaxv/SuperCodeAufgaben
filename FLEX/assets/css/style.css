@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: clamp(0.3125rem, 1.2031rem + 0.875vw, 1.75rem);
+}
+
+.wrap_main{
+   height: 100vh;
+   background-image: url(../img/background_glass.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+ 
+
+}
+
+
+header{
+    
+    background-color: rgba(34, 34, 33, 0.32);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.349);
+    text-shadow: 3px 2px 0px rgba(0,0,0,0.21);
+}
+
+header .wrap_header{
+
+    display: flex;
+    max-height: 10vw;
+    padding: 30px 40px;
+    justify-content: space-between;
+    align-items: center;
+
+    /* font-size: 24px; */
+    
+  
+
+
+
+
+}
+
+
+
+.navi ul{
+    display: flex;
+    gap: 0px 30px;
+}
+
+.navi ul li{
+    list-style: none;
+}
