@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Level-2_3</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+<form>
+
+    <fieldset id="reg-form" aria-relevant="all">
+        <legend>Register Form</legend>
+
+
+
+        <section class="user-inputs">
+
+            <label for="name">Name</label><input type="text" id="name">
+            <label for="surname">Surname</label><input  type="text" id="surname">
+            <label for="email">E-Mail</label><input  type="text" id="email">
+            
+            
+            <div class="radio">
+                <label>Gender</label> <label id="gender-m" for="male">Male</label><input checked  value="male" name="gender" id="male" type="radio">
+                <label id="gender-f" for="female">Female</label><input  value="female" name="gender" id="female" type="radio">
+            </div>
+
+            <div class="upload">
+                <label for="picture">Picture</label><input type="file" id="picture">
+            </div>
+
+
+            <label for="country">Country</label>
+            <select id="country">
+                    <option value="germany">Germany</option>
+                    <option value="france">France</option>
+                    <option value="usa">USA</option>
+            </select>
+
+        <div class="languages">
+
+
+                <label id="lbl-lang" for="lang">Preferred languages</label>
+                
+          
+            
+              <select name="langs" id="lang" multiple >
+                <option value="html">HTML</option>
+                <option value="css">Css</option>
+                <option value="JS">JS</option>
+                <option value="React">React</option>
+               
+              </select>
+       
+        </div>
+       
+        </section>
+        
+        
+
+
+    </fieldset>
+
+
+
+</form>
+
+
+</body>
+</html>

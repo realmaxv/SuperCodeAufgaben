@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formular{
+    
+  
+    width: 60%;
+    margin: 50px auto;
+    padding: 10px 0;
+  
+    
+
+}
+
+section{
+    display: block;
+    width: 80%;
+    margin: 0 auto; 
+ margin-bottom: 20px;
+}
+label{
+    font-weight: bold;
+    text-align: left;
+}
+
+
+span{
+    color: red;
+}
+
+input, select{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 10px;
+  
+    
+}
+
+
+/* -------------------- */
+
+#nachname{
+
+    margin-left: 1vw;
+
+}
+
+#email, #thema, #thema, #sub ,#nachricht{
+    width: 410px;
+    margin-bottom: 20px;
+}
+
+#nachricht{
+
+    resize: vertical;
+
+
+}
+#sub{
+    background-color: lightblue;
+    color: white;
+    text-shadow: 0.8px 1px 0.8px black;
+
+}
+

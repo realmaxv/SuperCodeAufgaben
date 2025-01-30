@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: clamp(0.5rem,1rem,3vw);
+}
+#reg-form{
+    padding: 10px;
+}
+
+
+.user-inputs label{
+    display: inline-block;
+
+    width: 50%;
+   
+}
+
+.user-inputs{
+    width: 50%;
+
+  
+}
+
+.radio{
+    margin-bottom: 5px;
+
+}
+
+.user-inputs input{
+
+    margin-bottom: 5px;
+    
+   
+    
+  
+}
+
+
+#gender-m, #gender-f{
+   
+    margin-left: -4px;
+    display: inline;
+    margin-right: 4px;
+   
+    
+}
+
+#gender-f{
+
+    margin-left: 20px;
+    
+}
+
+.upload{
+    width: 70vw;
+    margin-bottom: 5px;
+}
+.upload label{
+    width: 35%;
+
+}
+
+#country{
+    margin-bottom: 5px;
+    margin-left: -4px;
+}
+.languages{
+width: 70%;
+
+background-color: yellow;
+
+
+}
+
+#lbl-lang{
+    display: block;
+    width: 50%;
+    height: 7vw;
+
+float: left;
+padding-top: 2.4vw;
+
+}
+#lang{
+
+    display: block;
+   width: 28%;
+   resize: none;
+    float: right;
+    
+}
