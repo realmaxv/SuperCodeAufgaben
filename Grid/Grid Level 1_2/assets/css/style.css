@@ -10,6 +10,8 @@
     min-height: 50vh;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
+    box-shadow: 2px 2px 4px black;
+    margin-bottom: 50px;
    
 }
 
@@ -37,3 +39,48 @@
     background-color: purple;
 }
 
+/* ! Layout 2 */
+
+
+
+.grid_2{
+    margin: 10px;
+    display: grid;
+    min-height: 50vh;
+    box-shadow: 2px -2px 4px black;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 10px;
+
+}
+.grid_2 div{
+   
+}
+.bx1a{
+
+    background-color: gray;
+    grid-row: 1 / 6;
+
+}
+
+.bx2b{
+    background-color: brown;
+    grid-row: 1 / 6;
+
+}
+
+.bx3c{
+    background-color:darkmagenta;
+    grid-column: 1 / span 2;
+   
+
+}
+
+.bx4d{
+    background-color: crimson;
+    
+}
+.bx5e{
+    background-color: crimson;
+    
+}
