@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body .page{
+   color: white;
+
+  min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+    margin: 10px;
+    
+ 
+}
+
+.page header{
+ background-color: blue;
+ grid-column: 1 / -1;
+
+}
+
+.middle{
+    min-height: 80vh;
+    grid-column: 1 / -1;
+  
+    display: grid;
+    gap: 5px;
+    
+
+    grid-template-columns: repeat(3, 1fr);
+
+    
+}
+.middle aside{
+   background-color: green;
+}
+
+.middle main{
+    grid-column: 2 / span 2;
+    background-color: red;
+   
+   
+
+    
+}
+
+.page footer{
+    background-color: purple;
+    grid-column: 1 / span 3;
+
+}
